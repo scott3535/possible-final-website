@@ -1,0 +1,88 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+      background-image:url("images/wave.background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+     
+     
+  }
+  
+  .center {
+      width: 600px;
+      padding: 2%;
+      margin: 100px auto;
+      background: rgb(255, 255, 255); /*this uses opacity of 75% for the background color*/
+      text-align: center;
+      border: 4px dashed rgba(255, 255, 255, 0);
+      margin-top:200px;
+      z-index: 500;
+  }
+  
+     
+  #logo {
+      margin-bottom: 16px;
+      border: 3px dashed rgb(0, 0, 0);
+      text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Fredoka One', sans-serif;
+      font-size: 2em;
+      margin: 0px auto 10px auto;
+      color: rgb(26, 73, 134);
+  }
+  
+  h2 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.5em;
+      line-height: 1.4;
+      color: rgb(26, 73, 134);
+      padding: 0px 0px;
+      margin: 0px auto 25px auto;
+     
+  }
+  
+  p {
+      font-family: 'Dosis', sans-serif;       ;
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: rgb(26, 73, 134);
+  }
+      nav{
+      font-family: 'Dosis', sans-serif;
+      font-size: 1.2em;
+      width: 400px;
+      margin: 0 auto;
+      border: dashed turquoise;
+      border-width: 3px 0;
+      text-align: center;
+      margin-top: 2em;
+  }
+     
+  
+  nav li{
+      display: inline;
+  }
+  
+  nav a{
+      display: inline-block;
+      padding: 10px;
+  }
+  
+  a{
+      color: #444;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+      a:hover{
+          color: black;
+          background: pink;
+      }
